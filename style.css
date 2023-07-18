@@ -13,7 +13,7 @@
 
 .clockdate-wrapper {
     display: grid;
-    justify-content: space-around;
+    justify-content: space-between;
     place-content: center;
     background: #000000;  /* fallback for old browsers */
     padding:25px;
@@ -22,36 +22,43 @@
     text-align:center;
     border-radius:5px;
     margin:0 auto;
-   
+
 }
 
 #clock{
-   
     font-family: Digital-7, 'sans-serif';
     font-size:120px;
     text-shadow:0px 0px 20px #ffffffcc;
     box-shadow: 0px 0px 30px #10c1ed;;
     color:#000000d7;
     border:1px solid #10c1ed ;
-    width: 550px;
+    width: 750px;
+    height: 200px;
     padding: 40px 80px;
-    border-radius: 20px;
+    border-radius: 200px;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 
 }
+#apm{
+  font-family: Digital-7, 'sans-serif';
+  margin-top: -150px;
+  margin-right: -500px;
+}
 
-#clock span {
+span {
+ 
+ 
     color:#000000cb;
     text-shadow:0px 0px 20px #ffffffcc;
     border-radius: 20px;
     font-size:80px;
-    position:relative;
-    left:10px;
+    
 }
 #date {
     margin-top: 2rem;
+    margin:30px auto;
     box-shadow: 0px 0px 30px #10c1ed;
     padding: 30px 0;
     border-radius: 20px;
@@ -62,6 +69,7 @@
     font-family:arial,sans-serif;
     color:#1599e0;
     border-bottom: 1px solid #10c1ed;
+    width: 500px;
 }
 
 @keyframes gradient {

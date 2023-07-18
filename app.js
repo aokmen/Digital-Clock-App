@@ -1,9 +1,9 @@
 const time = () => {
     const clock = document.querySelector("#clock")
-   
+   const apm = document.querySelector("#apm")
     let today = new Date()
     let hr = today.getHours() 
-    let min = today.getMinutes() 
+    let min = today.getMinutes()  
     let sec = today.getSeconds()
     let pm = hr < 12 ? `<span> AM </span>` : `<span> PM </span>`
     
@@ -16,8 +16,8 @@ const time = () => {
     sec = checkTime(sec)
 
 
-clock.innerHTML = `${hr}:${min}:${sec} ${pm}`
-
+clock.innerHTML = `${hr}:${min}:${sec} `
+apm.innerHTML = `${pm}`
 
 var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

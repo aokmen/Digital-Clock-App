@@ -1,4 +1,9 @@
-# Clock and Date Display
+# Digital Clock and Date Display App
+
+<h3>visit: https://aokmen.github.io/Digital-Clock-App</h3>
+<img alt="alt_text" src="./clock.gif"/>
+
+## Description:
 
 This project creates a clock and date display using HTML, CSS, and JavaScript. It provides a visually appealing and functional clock that continuously updates to show the current time, along with a formatted date display. The project utilizes HTML for structuring the elements, CSS for styling, and JavaScript for the dynamic functionality.
 
